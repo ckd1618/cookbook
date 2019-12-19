@@ -1,0 +1,15 @@
+ng new public --routing
+//public is the name of the file that will be made
+ng build --watch
+//this builds the index file and runs the angular project, so express can properly serve the index file
+ng g c note
+//this generates a component called note
+ng build --watch
+//this will run the project
+
+//now setup the app.routing module
+//go into app.component.html and delete the top part
+
+ng g s http
+//this generates a service and names it http
+
