@@ -7,9 +7,12 @@ ng g c note
 ng build --watch
 //this will run the project
 
-//now setup the app.routing module
+//now setup the app.routing.module.ts file
 //go into app.component.html and delete the top part
 
 ng g s http
 //this generates a service and names it http
+
+nodemon server.js
+//run the server with this command
 
