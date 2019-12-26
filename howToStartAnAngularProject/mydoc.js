@@ -6,6 +6,8 @@ ng g c note
 //this generates a component called note
 ng build --watch
 //this will run the project
+ng serve
+//this will also run the project but will tell you the localhost address as well
 
 //now setup the app.routing.module.ts file
 //go into app.component.html and delete the top part
